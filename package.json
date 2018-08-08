@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "postinstall": "gulp ts",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badboiz/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badboiz/backend/issues"
+  },
+  "homepage": "https://github.com/badboiz/backend#readme",
+  "dependencies": {
+    "@types/node": "^8.0.25",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "gps-util": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.2",
+    "mongodb": "^2.2.31",
+    "typescript": "^2.6.0-dev.20170825"
+  }
+}
